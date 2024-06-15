@@ -1,0 +1,16 @@
+name: logto-crystal
+version: 0.1.0
+
+authors:
+  - t2vee <68762600+t2vee@users.noreply.github.com>
+
+dependencies:
+  jwt:
+    github: crystal-community/jwt
+  lru-cache:
+    github: nicolab/crystal-lru-cache
+    version: ~> 1.0.3
+
+crystal: 1.6.0
+
+license: MIT
