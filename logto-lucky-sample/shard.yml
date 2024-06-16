@@ -1,0 +1,33 @@
+---
+name: logto_lucky_sample
+version: 0.1.0
+targets:
+  logto_lucky_sample:
+    main: src/logto_lucky_sample.cr
+crystal: '>= 1.12.2'
+dependencies:
+  lucky:
+    github: luckyframework/lucky
+    version: ~> 1.2.0
+  avram:
+    github: luckyframework/avram
+    version: ~> 1.2.0
+  carbon:
+    github: luckyframework/carbon
+    version: ~> 0.5.1
+  carbon_sendgrid_adapter:
+    github: luckyframework/carbon_sendgrid_adapter
+    version: ~> 0.5.0
+  lucky_env:
+    github: luckyframework/lucky_env
+    version: ~> 0.2.0
+  lucky_task:
+    github: luckyframework/lucky_task
+    version: ~> 0.3.0
+  authentic:
+    github: luckyframework/authentic
+    version: '>= 1.0.0, < 2.0.0'
+  jwt:
+    github: crystal-community/jwt
+    version: ~> 1.6.1
+development_dependencies: {}
